@@ -1,0 +1,6 @@
+interface:
+  display_name: "DesiSketch Illustrations"
+  short_description: "Generate clean and wobbly hand-drawn DesiSketch illustrations for English, Hinglish, Tenglish, Kanglish, or other transliterated Indian language contexts"
+  default_prompt: "Use $desisketch-illustrations to design and generate several wobbly, deadpan Desi illustrations for this article."
+policy:
+  allow_implicit_invocation: true
