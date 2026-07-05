@@ -65,37 +65,10 @@ This skill uses the "absurd wobbly line product sketch" style:
 
 ## Example Concepts (Calibration Samples)
 
-Below are the style-calibration drawings located in `examples/images/`:
-
-### Two Breakpoints
-![Two Breakpoints](examples/images/01-two-breakpoints.png)
-
-### Sort by Purpose
-![Sort by Purpose](examples/images/02-sort-by-purpose.png)
-
-### One Fish, Many Uses
-![One Fish, Many Uses](examples/images/03-one-fish-many-uses.png)
-
-### Handoff Path
-![Handoff Path](examples/images/04-handoff-path.png)
-
-### Information Well
-![Information Well](examples/images/05-information-well.png)
-
-### Idea Press
-![Idea Press](examples/images/06-idea-press.png)
-
-### Content Fermentation
-![Content Fermentation](examples/images/07-content-fermentation.png)
-
-### Trust Bridge
-![Trust Bridge](examples/images/08-trust-bridge.png)
+Below are the available style-calibration drawings located in `examples/images/`:
 
 ### Multilingual Sorting (4 Languages)
 ![Multilingual Sorting](examples/images/09-desi-multilang.png)
-
-### Vertical Desi (9:16)
-![Vertical Desi](examples/images/10-desi-vertical.png)
 
 ### Square Desi (1:1)
 ![Square Desi](examples/images/11-desi-square.png)
