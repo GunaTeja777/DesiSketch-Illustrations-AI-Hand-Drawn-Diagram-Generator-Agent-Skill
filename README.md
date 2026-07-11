@@ -203,46 +203,6 @@ Generate a 16:9 illustration for this concept:
 Make it bizarre but clean. Desi must carry out the physical action. Use 3-5 short Hinglish transliterated labels.
 ```
 
-### 4. Editing: Removing Titles
-```text
-[Claude Code] /desisketch-illustrations
-[Codex/Other] Use $desisketch-illustrations
-
-Edit this image.
-Remove the title "Workflow Diagram" and its underline from the top-left corner, leaving a clean white background. Do not add or change any other elements.
-```
-
----
-
-## Directory Structure
-
-```text
-.
-├── README.md
-├── LICENSE
-├── NOTICE.md
-├── examples/
-│   ├── images/
-│   │   ├── 09-desi-multilang.png
-│   │   └── ...
-│   └── prompts.md
-└── desisketch-illustrations/
-    ├── SKILL.md           <-- Universal Agent Skill (Claude Code, Codex, etc.)
-    ├── agents/
-    │   └── openai.yaml    <-- Codex platform-specific metadata (ignored by Claude)
-    ├── assets/
-    │   └── examples/
-    │       ├── 09-desi-multilang.png
-    │       └── ...
-    └── references/
-        ├── style-dna.md
-        ├── desisketch-ip.md
-        ├── composition-patterns.md
-        ├── prompt-template.md
-        └── qa-checklist.md
-```
-
----
 
 ## License
 
