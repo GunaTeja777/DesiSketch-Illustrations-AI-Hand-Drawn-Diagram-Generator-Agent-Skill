@@ -18,6 +18,16 @@ In short: **We guide the AI to draw out the key conceptual action of the text, r
 
 ---
 
+## Compatibility
+
+This skill has been tested and verified across multiple AI assistant/agent interfaces:
+*   **Codex / Antigravity IDE:** Fully supported, including automated visual feedback and built-in image tools.
+*   **Claude Code (CLI):** Fully supported, using custom local skill directories and `/desisketch-illustrations` invocation.
+*   **Cursor / Windsurf:** Verified using `.cursorrules` config.
+*   **Claude.ai Projects:** Verified by pasting `SKILL.md` into Custom Instructions and uploading reference files.
+
+---
+
 ## Who is this for?
 
 **Perfect for:**
