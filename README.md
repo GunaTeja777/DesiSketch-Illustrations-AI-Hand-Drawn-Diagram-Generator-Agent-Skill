@@ -117,24 +117,38 @@ This skill designs the visual strategy, plans the shot list, and generates image
 *   **Codex / Antigravity IDE:** Works out of the box using built-in image tools.
 *   **Cursor / Windsurf / Claude.ai Projects:** Works when using a model or workspace configuration that has access to image generation features/extensions.
 
-Choose your AI agent platform for installation:
+Choose the setup method depending on your environment:
 
-### Option A: Claude Code
-Copy the skill to your Claude custom skills directory.
+### A. For Cursor & Windsurf IDEs
+A `.cursorrules` file is provided at the root of this repository. 
+1. Copy the `.cursorrules` file (or append its contents) into the root of your workspace:
+   ```bash
+   cp .cursorrules /path/to/your/workspace/
+   ```
+2. When you use the Cursor chat or composer, Claude/Gemini will automatically recognize the `DesiSketch` commands and follow the rules.
+
+### B. For Claude Projects (Claude.ai Web UI)
+If you are using Claude Projects in the web interface:
+1. Create or open a **Project** in Claude.ai.
+2. Click **Add Content** and upload the files inside the `desisketch-illustrations/references/` folder as project files.
+3. Copy the contents of [desisketch-illustrations/SKILL.md](desisketch-illustrations/SKILL.md) and paste it into the **Custom Instructions** section of your Project.
+
+### C. For Claude Code (CLI)
+Copy the skill to your Claude custom skills directory:
 
 *   **Global Installation** (available in any project/workspace):
     ```bash
     mkdir -p ~/.claude/skills
     cp -R ./desisketch-illustrations ~/.claude/skills/
     ```
-*   **Project-level Installation** (only active inside this specific repository):
+*   **Project-level Installation** (only active inside this specific workspace):
     ```bash
     mkdir -p .claude/skills
     cp -R ./desisketch-illustrations .claude/skills/
     ```
 
-### Option B: Codex & Other Agents
-Copy the skill to your Codex custom skills directory:
+### D. For Codex & OpenAI Agent Frameworks
+Copy the skill to your agent configuration workspace's custom directory:
 ```bash
 mkdir -p "${CODEX_HOME:-$HOME/.codex}/skills"
 cp -R ./desisketch-illustrations "${CODEX_HOME:-$HOME/.codex}/skills/"
