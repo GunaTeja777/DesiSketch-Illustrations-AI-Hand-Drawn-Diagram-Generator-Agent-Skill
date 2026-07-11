@@ -2,13 +2,13 @@
 
 > Translate judgments, workflows, system states, and metaphors in articles into clean, hand-drawn, absurd, and minimalist body illustrations.
 >
-> 16:9 Horizontal | Desi IP | Pure White Hand-Drawn | Latin-Script Annotations (English, Hinglish, Tenglish, Kanglish) | Codex Skill
+> 16:9 Horizontal | Desi IP | Pure White Hand-Drawn | Latin-Script Annotations (English, Hinglish, Tenglish, Kanglish) | Agent Skill (Claude Code & Codex)
 
 ---
 
 ## What is this Repository?
 
-**DesiSketch Illustrations** is a Codex Skill designed to guide AI agents in designing and generating inline illustrations for articles, blog posts, Notion documents, and technical workflows written in English or transliterated Indian languages (such as Hinglish, Tenglish, Kanglish, etc.).
+**DesiSketch Illustrations** is an Agent Skill (fully compatible with **Claude Code** and **Codex**) designed to guide AI agents in designing and generating inline illustrations for articles, blog posts, Notion documents, and technical workflows written in English or transliterated Indian languages (such as Hinglish, Tenglish, Kanglish, etc.).
 
 It is not a generic clipart generator or a polished slide template. Its core mission is to analyze the cognitive anchors of your text and translate one key judgment, workflow, comparison, state, or metaphor into a memorable 16:9 hand-drawn diagram.
 
@@ -100,24 +100,43 @@ git clone https://github.com/GunaTeja777/desisketch-illustrations.git
 cd desisketch-illustrations
 ```
 
-Copy the skill to your Codex/agent configuration workspace custom directory:
+Choose your AI agent platform for installation:
+
+### Option A: Claude Code
+Copy the skill to your Claude custom skills directory.
+
+*   **Global Installation** (available in any project/workspace):
+    ```bash
+    mkdir -p ~/.claude/skills
+    cp -R ./desisketch-illustrations ~/.claude/skills/
+    ```
+*   **Project-level Installation** (only active inside this specific repository):
+    ```bash
+    mkdir -p .claude/skills
+    cp -R ./desisketch-illustrations .claude/skills/
+    ```
+
+### Option B: Codex & Other Agents
+Copy the skill to your Codex custom skills directory:
 ```bash
 mkdir -p "${CODEX_HOME:-$HOME/.codex}/skills"
 cp -R ./desisketch-illustrations "${CODEX_HOME:-$HOME/.codex}/skills/"
-```
-
-Once installed, trigger it in your agent console:
-```text
-Use $desisketch-illustrations to design and generate 5 Desi illustrations for this article.
 ```
 
 ---
 
 ## How to Use
 
+Depending on your agent platform, trigger the skill using its identifier:
+*   **Claude Code:** Use the `/desisketch-illustrations` command or let Claude trigger it automatically.
+*   **Codex & Other Agents:** Reference the skill as `$desisketch-illustrations`.
+
 ### 1. Illustration Planning (Shot List Strategy)
 ```text
-Use $desisketch-illustrations Do not generate images yet.
+[Claude Code] /desisketch-illustrations
+[Codex/Other] Use $desisketch-illustrations
+
+Do not generate images yet.
 Analyze the article below, identify where visual explanations are needed, and output a shot list of around 5 images.
 For each image, specify:
 - Placement paragraph
@@ -133,7 +152,10 @@ For each image, specify:
 
 ### 2. Full Image Generation
 ```text
-Use $desisketch-illustrations Generate 4 illustrations for this article.
+[Claude Code] /desisketch-illustrations
+[Codex/Other] Use $desisketch-illustrations
+
+Generate 4 illustrations for this article.
 Requirements: 16:9 horizontal, pure white background, black hand-drawn outline, sparse red/orange/blue Latin-script annotations (e.g., Hinglish or Tenglish transliterated labels).
 Do not create complex slides or cute mascot posters.
 
@@ -142,14 +164,20 @@ Do not create complex slides or cute mascot posters.
 
 ### 3. Visualizing a Single Statement/Concept
 ```text
-Use $desisketch-illustrations Generate a 16:9 illustration for this concept:
+[Claude Code] /desisketch-illustrations
+[Codex/Other] Use $desisketch-illustrations
+
+Generate a 16:9 illustration for this concept:
 "Trust isn't built by shouting; it is laid down tile by tile with concrete proof."
 Make it bizarre but clean. Desi must carry out the physical action. Use 3-5 short Hinglish transliterated labels.
 ```
 
 ### 4. Editing: Removing Titles
 ```text
-Use $desisketch-illustrations Edit this image.
+[Claude Code] /desisketch-illustrations
+[Codex/Other] Use $desisketch-illustrations
+
+Edit this image.
 Remove the title "Workflow Diagram" and its underline from the top-left corner, leaving a clean white background. Do not add or change any other elements.
 ```
 
