@@ -62,6 +62,9 @@ Each image must explain only one core concept. The prompt must request:
 
 Do not copy previous compositions (such as a conveyor belt breakpoint, cutting an asset fish, or pulling three ropes) unless explicitly asked. Invent a new metaphor specific to the content.
 
+*   **Image Generation Fallback:** If your environment lacks an active image-generation tool/MCP server, do NOT write raw SVG code or SVG approximations (as they cannot reproduce the wobbly hand-drawn line style). Instead, output the detailed prompts/descriptions and instruct the user to run them in their preferred image generator.
+
+
 ### 4. Inspect and Iterate
 
 Check the output against the `references/qa-checklist.md`. Re-generate or edit if any of the following apply:
