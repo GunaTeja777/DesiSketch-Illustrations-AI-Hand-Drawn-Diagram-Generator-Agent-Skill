@@ -1,6 +1,6 @@
 ---
 name: desisketch-illustrations
-description: Generate DesiSketch-style article illustrations for Indian contexts. Used when users request illustrations, strategy/shot lists, or edits for English, Hinglish, Tenglish, Kanglish, or other transliterated Indian language articles, blogs, Notion pages, and workflows. Features the recurring Desi IP, pure white hand-drawn style, minimal red/orange/blue annotations, and clean, wobbly, deadpan visual elements.
+description: Design, create, draw, plan, or edit hand-drawn DesiSketch-style article illustrations, diagrams, conceptual sketches, and visual metaphors for Indian contexts (English, Hinglish, Tenglish, Kanglish, etc.). Triggered when users ask for illustrations, strategy/shot lists, or edits for articles, blogs, Notion pages, or workflows featuring the wobbly-line, deadpan Desi IP character with minimal colored annotations.
 ---
 
 # DesiSketch Illustrations - India Edition

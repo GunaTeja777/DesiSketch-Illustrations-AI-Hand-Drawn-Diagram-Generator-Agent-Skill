@@ -193,13 +193,12 @@ Remove the title "Workflow Diagram" and its underline from the top-left corner, 
 ├── examples/
 │   ├── images/
 │   │   ├── 09-desi-multilang.png
-│   │   ├── 10-desi-vertical.png
 │   │   └── ...
 │   └── prompts.md
 └── desisketch-illustrations/
-    ├── SKILL.md
+    ├── SKILL.md           <-- Universal Agent Skill (Claude Code, Codex, etc.)
     ├── agents/
-    │   └── openai.yaml
+    │   └── openai.yaml    <-- Codex platform-specific metadata (ignored by Claude)
     ├── assets/
     │   └── examples/
     │       ├── 01-two-breakpoints.png
