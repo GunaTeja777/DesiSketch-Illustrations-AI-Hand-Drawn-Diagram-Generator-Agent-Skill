@@ -100,6 +100,13 @@ git clone https://github.com/GunaTeja777/desisketch-illustrations.git
 cd desisketch-illustrations
 ```
 
+### Prerequisites (Image Generation Dependency)
+
+This skill designs the visual strategy, plans the shot list, and generates image prompt guidelines, but it **requires your AI agent to have image-generation capabilities** to produce final PNGs:
+*   **Claude Code (CLI):** Requires an MCP (Model Context Protocol) server or custom tool for image generation (e.g., connected to Midjourney, DALL-E, or Stable Diffusion APIs).
+*   **Codex / Antigravity IDE:** Works out of the box using built-in image tools.
+*   **Cursor / Windsurf / Claude.ai Projects:** Works when using a model or workspace configuration that has access to image generation features/extensions.
+
 Choose your AI agent platform for installation:
 
 ### Option A: Claude Code
