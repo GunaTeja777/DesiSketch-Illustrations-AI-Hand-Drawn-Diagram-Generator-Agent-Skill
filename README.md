@@ -218,7 +218,7 @@ Remove the title "Workflow Diagram" and its underline from the top-left corner, 
     │   └── openai.yaml    <-- Codex platform-specific metadata (ignored by Claude)
     ├── assets/
     │   └── examples/
-    │       ├── 01-two-breakpoints.png
+    │       ├── 09-desi-multilang.png
     │       └── ...
     └── references/
         ├── style-dna.md
