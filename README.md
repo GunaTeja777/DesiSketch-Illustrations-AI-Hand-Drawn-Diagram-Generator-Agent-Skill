@@ -1,16 +1,16 @@
-# DesiSketch Illustrations
+# DesiSketch Illustrations (AI Hand-Drawn Diagram Generator & Agent Skill)
 
-> Translate judgments, workflows, system states, and metaphors in articles into clean, hand-drawn, absurd, and minimalist body illustrations.
+> Translate text, workflows, and system metaphors into clean, wobbly, hand-drawn diagrams using a consistent visual grammar. Compatible with **Claude Code**, **Codex**, **Cursor**, **Windsurf**, and **Claude Projects**.
 >
-> 16:9 Horizontal | Desi IP | Pure White Hand-Drawn | Latin-Script Annotations (English, Hinglish, Tenglish, Kanglish) | Agent Skill (Claude Code & Codex)
+> 16:9 Horizontal | Desi IP | Pure White Hand-Drawn | Latin-Script Annotations (English, Hinglish, Tenglish, Kanglish) | AI Illustration Agent
 
 ---
 
 ## What is this Repository?
 
-**DesiSketch Illustrations** is an Agent Skill (fully compatible with **Claude Code** and **Codex**) designed to guide AI agents in designing and generating inline illustrations for articles, blog posts, Notion documents, and technical workflows written in English or transliterated Indian languages (such as Hinglish, Tenglish, Kanglish, etc.).
+**DesiSketch Illustrations** is a cross-platform AI Agent Skill designed to guide AI coding assistants and chat agents (such as **Claude Code**, **Codex**, **Cursor**, **Windsurf**, or **Claude Projects**) in designing and generating inline illustrations for articles, blog posts, Notion documents, and technical workflows written in English or transliterated Indian languages (such as Hinglish, Tenglish, Kanglish, etc.).
 
-It is not a generic clipart generator or a polished slide template. Its core mission is to analyze the cognitive anchors of your text and translate one key judgment, workflow, comparison, state, or metaphor into a memorable 16:9 hand-drawn diagram.
+Unlike ad-hoc DALL-E prompts or generic diagram tools, this skill enforces a consistent, reproducible visual grammar—combining a wobbly pen-sketch aesthetic with a deadpan operator character ("Desi") to make abstract concepts instantly readable and memorable. It is not a generic clipart generator or a polished slide template. Its core mission is to analyze the cognitive anchors of your text and translate one key judgment, workflow, comparison, state, or metaphor into a memorable 16:9 hand-drawn diagram.
 
 The default character is **"Desi"**: a solid black creature with white dot eyes, thin legs, and a deadpan expression. Desi is not a decorative mascot, sticker, or corner-filler—Desi is an active, deadpan operator participating in the mechanics of the system.
 
